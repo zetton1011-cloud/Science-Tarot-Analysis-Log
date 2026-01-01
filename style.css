@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 画像を包む枠 */
+#imageArea {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* カード */
+img.card {
+  width: 300px;
+}
+
+/* 説明・エンド画像 */
+img.description {
+  max-width: 90%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 逆位置 */
+.reversed {
+  transform: rotate(180deg);
+}
+
+button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+}
